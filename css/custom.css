@@ -1,0 +1,34 @@
+nav.navigation-component {
+    margin-bottom: 0;
+}
+
+h1.welcome-text {
+    padding: 150px 0;
+    background: rgba(0, 0, 0, .5);
+    color: white;
+    margin-top: 0 !important;
+}
+
+div.form-container {
+    margin-top: 80px;
+}
+
+div.form-delete-btn {
+    margin-top: 25px !important;
+}
+
+button.btn-masukkan-nilai {
+    margin: 15px 0;
+}
+
+table.tabel-nilai {
+    margin-top: 15px;
+}
+
+span.edit-icon {
+    color: #ffc606;
+}
+
+span.delete-icon {
+    color: #ff3c06;
+}

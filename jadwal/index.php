@@ -8,4 +8,7 @@ $content_halaman = $conn->query($sql)->fetch_assoc()['content_halaman'];
     <h1>Jadwal</h1>
 	<?= htmlspecialchars_decode($content_halaman, ENT_QUOTES) ?>
 </div>
+<script type="text/javascript">
+    $('div.container table').addClass('table table-condensed table-bordered');
+</script>
 <?php include_once "./../template/footer.php"; ?>

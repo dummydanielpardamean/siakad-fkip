@@ -25,6 +25,11 @@ if ( ! empty($_POST)) {
 </div>
 <script src="/js/tinymce/tinymce.min.js"></script>
 <script>
-	tinymce.init({selector: 'textarea'});
+	tinymce.init({
+		selector: 'textarea',
+		table_toolbar: "tableprops tabledelete | tableinsertrowbefore tableinsertrowafter tabledeleterow | tableinsertcolbefore tableinsertcolafter tabledeletecol",
+		plugins: "table",
+  		table_appearance_options: false
+});
 </script>
 <?php include_once "./../template/footer.php"; ?>
